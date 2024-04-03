@@ -1,0 +1,22 @@
+{
+  "name": "create-endpoint-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "prisma migrate dev",
+    "seed": "tsx ./prisma/seed/index.ts",
+    "dev": "tsx app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "express": "^4.19.1",
+    "tsx": "^4.7.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.11.0"
+  }
+}
